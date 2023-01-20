@@ -5,7 +5,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index"
+    "start": "nodemon index",
+    "prod": "pm2 start index.js"
   },
   "keywords": [],
   "author": "",
